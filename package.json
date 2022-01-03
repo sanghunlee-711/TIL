@@ -1,0 +1,25 @@
+{
+  "name": "til",
+  "version": "1.0.0",
+  "description": "하루하루 회사, 개인프로젝트, 공부 등을 통해 배운 내용을 간략하게 정리할 레포입니다 :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanghunlee-711/TIL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanghunlee-711/TIL/issues"
+  },
+  "homepage": "https://github.com/sanghunlee-711/TIL#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
