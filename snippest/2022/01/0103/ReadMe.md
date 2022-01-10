@@ -1,4 +1,4 @@
-# DOM
+# DOM API
 
 [requestAnimationFrames](https://developer.mozilla.org/ko/docs/Web/API/Window/requestAnimationFrame)는 애니메이션 간의 업데이트 사이에 콜백함수를 호출할 수 있게 도와주는 메소드 이다(리페인트 이전에 실행할 콜백을 인자로 받게 됨.) 이 콜백을 이용하면 현재 렌더링 사이클과 다음 렌더링 사이클 사이의 시간을 추적할 수 있다.
 
