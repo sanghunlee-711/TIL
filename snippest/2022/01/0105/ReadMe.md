@@ -24,3 +24,17 @@ console.log(1 ^ 2); // 3
 console.log(1 ^ 3); // 2
 console.log(2 ^ 3); // 1
 ```
+
+# Cypress
+
+Test Best Practice를 따르기 위해 data-id에 **_-_**이 들어간 이름을 작성하니 찾지 못하는 현상이 발생함
+아무래도 카멜케이스위주로 써야할듯..
+
+# msw
+
+[Dennis Kortsch-Develop and test React apps with React Query, MSW and React Testing Library
+](https://www.denniskortsch.de/posts/msw-react-testing)를 참고하면 MSW에서 메모리에 자체 DB를 만들어 테스트를 용이하게 하도록 만들어준다고 한다.
+
+이때까지 로직위주로만 테스트를 돌려서 CRUD도 모두 테스트에 넣을때 이 방법을 써야겠다.
+
+그런데 저 라이브러리 사용법을 익히느니 일단 sessionStorage를 활용하는 방법으로 진행하고 뭔가 감당이 안되면 써야겠따 ㅎ...
