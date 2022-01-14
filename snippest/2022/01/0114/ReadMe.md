@@ -126,6 +126,7 @@ console.log(typeof Object); //function -> 아마도 Object가 생성자함수(co
   - Main Branch에서는 Sub Branch를 기준으로 커밋을 재정렬하게됨 (그래서 서브브랜치 커밋도 남게 됨)
 
   * 그런데 단점이 있음
+
     1. Rebase는 commit history를 정리하는 역할을 하긴 함
     2. 같은 브랜치에서 Rebase를 할 때마다 history가 달라질 수 있음
     3. 수정 사항이 추가로 생긴 후 다시 rebase하면 history가 무조건 달
@@ -135,12 +136,14 @@ console.log(typeof Object); //function -> 아마도 Object가 생성자함수(co
     - 사람들이 작성한 커밋 하나하나가 Base Branch(메인브랜치)에 들어가야한다는 전제면 rebase가 필수인듯.
 
 - Merge
-   Main Branch에서는 Head에 머지 커밋이 남게됨 서브브랜치에서 커밋한 기록은 Main Branch에서 남지 않음
+  Main Branch에서는 Head에 머지 커밋이 남게됨 서브브랜치에서 커밋한 기록은 Main Branch에서 남지 않음
 
 # 참고
 
-[TCP School.com - 비트연산자](http://www.tcpschool.com/javascript/js_operator_bitwise)
-[MDN-Promise.all(), Promise.allSetttled()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
-[Wiki-2의 보수](https://ko.wikipedia.org/wiki/2%EC%9D%98_%EB%B3%B4%EC%88%98)
-[MDN-Nullish coalescing operator](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
-[우아한형제들 기술블로그-우린 Git-flow를 사용하고 있어요](https://techblog.woowahan.com/2553/)
+>
+
+- [TCP School.com - 비트연산자](http://www.tcpschool.com/javascript/js_operator_bitwise)
+- [MDN-Promise.all(), Promise.allSetttled()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+- [Wiki-2의 보수](https://ko.wikipedia.org/wiki/2%EC%9D%98_%EB%B3%B4%EC%88%98)
+- [MDN-Nullish coalescing operator](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
+- [우아한형제들 기술블로그-우린 Git-flow를 사용하고 있어요](https://techblog.woowahan.com/2553/)
