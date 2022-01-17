@@ -16,3 +16,56 @@ Vanila JS와 유사하게 메모리 관리 측면 + 이벤트제거의 용이성
 - [dan_abramov-twitter](https://twitter.com/dan_abramov/status/1200118229697486849)
 - [bigbinary.com](https://www.bigbinary.com/blog/react-17-delegates-events-to-root-instead-of-document)
 - [dev.to](https://dev.to/maddevs/a-bit-about-event-delegation-in-react-4jeo)
+
+# Yml
+
+Json, XML과 같은 파일 전송 포맷 중 하나로 생각하면 됨
+여러 포맷 규칙중 가장 단순해 보임
+
+아래는 json 과 yml의 비교이다.(같은내용 임)
+
+```json
+{
+  "version": 123,
+  "metadata": {
+    "name": "this is name",
+    "labels": {
+      "app": "test app"
+    }
+  },
+  "spec": {
+    "containers": [
+      {
+        "name": "this is new container",
+        "image": "image-url",
+        "ports": [
+          {
+            "containerPorts": 8000
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+객체에 별도의 괄호가 없고 배열인 경우 `-`를 통해 표현 가능 함
+
+```yml
+version: 123
+metadata:
+  name: this is name
+  labels:
+    app: test app
+spec:
+  containers:
+  - name: this is new container
+    image: image-url
+      ports:
+      - containerPorts: 8000
+
+```
+
+> 참고
+
+- [인프런-답변](https://www.inflearn.com/questions/16184)
