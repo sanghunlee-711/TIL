@@ -1,4 +1,4 @@
-# Error Handling & Axios
+# React Error Handling & Axios Instance
 
 ## 리액트 에러바운드리
 
