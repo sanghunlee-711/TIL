@@ -20,3 +20,20 @@ git stash pop //임시로 저장한 변경사항을 해당브랜치에서 복원
 ```md
 git commit --amend
 ```
+
+# Staging 되지 않은 파일 삭제
+
+- git clean -df
+  Cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
+
+- -d: Remove untracked directories in addition to untracked files
+  디렉토리 및 파일까지 다 지워줌.
+  - -x
+    Don’t use the standard ignore rules read from .gitignore (per directory) and $GIT_DIR/info/exclude, but do still use the ignore rules given with -e options. This allows removing all untracked files, including build products. This can be used (possibly in conjunction with git reset) to create a pristine working directory to test a clean build.
+    이렇게 하면 빌드 제품을 포함하여 추적되지 않은 모든 파일을 제거할 수 있습니다.
+- -f: Force (might be not necessary depending on clean.requireForce setting)
+  강제
+
+```
+git clean -fdx
+```
