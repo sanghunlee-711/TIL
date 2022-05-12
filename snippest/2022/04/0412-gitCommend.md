@@ -31,6 +31,7 @@ git commit --amend
   - -x
     Don’t use the standard ignore rules read from .gitignore (per directory) and $GIT_DIR/info/exclude, but do still use the ignore rules given with -e options. This allows removing all untracked files, including build products. This can be used (possibly in conjunction with git reset) to create a pristine working directory to test a clean build.
     이렇게 하면 빌드 제품을 포함하여 추적되지 않은 모든 파일을 제거할 수 있습니다.
+    필요한 것도 날아갈 수 있으니 사용하지 말자.
 - -f: Force (might be not necessary depending on clean.requireForce setting)
   강제
 
